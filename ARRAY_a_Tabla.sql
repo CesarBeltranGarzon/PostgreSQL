@@ -1,0 +1,4 @@
+SELECT UNNEST(ARRAY['B0473-sudo','B1019-sudo'] ) AS DATA
+
+SELECT
+UNNEST(ARRAY['FL, CA, NY, IL'])  AS option_value
